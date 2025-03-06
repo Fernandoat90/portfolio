@@ -1,0 +1,55 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-color: black;
+}
+
+#nav-content{
+    height:40px;
+    background-color:rgba(211,211,211,0.7);
+    position:relative;
+    color:white;
+    list-style:none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin: 0;
+}
+#nav-content>p{
+    margin:0;
+    font-size:2em;
+    color:black;
+}
+
+#nav-content>li>a{
+    text-decoration: none;
+    color:white;
+    margin: 50px;
+    font-size:1.5em;
+}
+
+#nav-content>li>a:hover{
+    transition:0.5;
+    color:darkred;
+    font-size:1.8em;
+}
+
+#home{
+    width:25px;
+}
+
+#nombre{
+    animation: move 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function:ease;
+}
+
+@keyframes move {
+    from{right:100px}
+    to{left:0px}
+}

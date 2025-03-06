@@ -1,0 +1,22 @@
+#about{
+    background-color: cadetblue;
+    color: white;
+    font-family:serif;
+}
+
+#foto_mia{
+    width:15%;
+    height:220px;
+    border-radius: 30%;
+}
+
+.encabezado{
+    text-align: center;
+    font-size:2.5em;
+}
+
+.sobre{
+    background-color: darkgray;
+    color:black;
+}
+
