@@ -1,16 +1,25 @@
 #about{
+    padding: 10px;
     background-color: cadetblue;
     color: white;
     font-family:serif;
+    display: flex;
+    justify-content:space-evenly;
+
 }
 
 #foto_mia{
-    width:15%;
-    height:220px;
-    border-radius: 30%;
+    width:11%;
+    height:200px;
+    border-radius: 50%;
+    display:flex;
+    justify-content: flex-start;
+    margin:0;
 }
 
 .encabezado{
+    position:flex;
+    justify-content:space-between;
     text-align: center;
     font-size:2.5em;
 }
@@ -18,5 +27,11 @@
 .sobre{
     background-color: darkgray;
     color:black;
+    margin: 0;
+    padding: 10px;
+}
+
+#desc{
+    width:80%;
 }
 
