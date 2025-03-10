@@ -1,20 +1,22 @@
 #about{
     padding: 10px;
-    background-color: cadetblue;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,82,1) 0%, rgba(0,212,255,1) 100%);
     color: white;
     font-family:serif;
     display: flex;
     justify-content:space-evenly;
-
 }
 
-#foto_mia{
-    width:11%;
-    height:200px;
+
+#foto_mia {
+    width: 230px;
+    height: 230px;
     border-radius: 50%;
-    display:flex;
-    justify-content: flex-start;
-    margin:0;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    object-position: 90% 90%;
 }
 
 .encabezado{
@@ -25,13 +27,23 @@
 }
 
 .sobre{
-    background-color: darkgray;
+    
     color:black;
     margin: 0;
     padding: 10px;
 }
 
 #desc{
-    width:80%;
+    width:75%;
 }
 
+.sobre>p{
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium';
+}
+
+.saludo{
+    color: bisque;
+    text-align: center;
+    font-size:35px;
+}

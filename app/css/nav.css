@@ -11,7 +11,8 @@ body{
 
 #nav-content{
     height:40px;
-    background-color:rgba(211,211,211,0.7);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,68,121,1) 0%, rgba(0,212,255,1) 100%);
     position:relative;
     color:white;
     list-style:none;
@@ -44,6 +45,7 @@ body{
 }
 
 #nombre {
+    
     position: relative;
     animation: backInLeft 1s ease-out forwards;
 }
@@ -62,6 +64,7 @@ body{
         }
         100% {
         transform: translateX(0) rotateY(0);
+        color:ghostwhite;
         }
     }
 
