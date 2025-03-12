@@ -1,7 +1,7 @@
 #logos{
-    width:200px;
-    max-height:300px;
-    background-color:cyan;
+    max-width:300px;
+    max-height:400px;
+    background-color:honeydew;
     text-align: center;
 }
 
@@ -16,6 +16,7 @@
 
 #list{
     background-color: blanchedalmond;
+    height:202px;
 }
 
 ul{
