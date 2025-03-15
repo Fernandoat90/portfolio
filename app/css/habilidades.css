@@ -1,20 +1,29 @@
-#logos{
+.logos{
     max-width:300px;
     max-height:400px;
-    background-color:honeydew;
+    
     text-align: center;
 }
 
-#document{
-    position:absolute;
-    width:290px;
-    max-height:300px;
+.document{
     background-color: darkcyan;
     text-align: center;
 }
 
+#container-hab{
+    text-align: center;
+    padding-left:320px;
+    width:60%;
+    display: flex;
+    
+    gap:2em;
+}
 
-#list{
+.grov1{
+    flex-grow:1;
+}
+
+.list{
     background-color: blanchedalmond;
     height:202px;
 }
@@ -23,6 +32,6 @@ ul{
     list-style-type: none;
 }
 
-#hability>li{
+.hability>li{
     font-size:1.2em;
 }

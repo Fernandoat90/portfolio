@@ -63,6 +63,7 @@ body{
         transform: translateX(-10px) rotateY(-5deg);
         }
         100% {
+        font-size:2em;
         transform: translateX(0) rotateY(0);
         color:ghostwhite;
         }

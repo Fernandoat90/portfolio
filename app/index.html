@@ -9,22 +9,24 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./css/habilidades.css">
-
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
 
 <body>
 
     <nav id="nav">
+    
         <ul id="nav-content">
+
             <p id="nombre" >Fernando Torres</p>
             <li><a href="#home"><img src="./img/home.png" alt="Home" id="home"> Inicio</a></li>
             <li><a href="#about">Acerca de mi</a></li>
             <li><a href="#skills">Habilidades</a></li>
             <li><a href="#proyectos">Proyectos</a></li>
-
-            
-
+            <li><a href="#pie-pag">Contacto</a></li>
+        
         </ul>
+    
     </nav>
 
     <main id="main">
@@ -33,69 +35,95 @@
             
                 
             <img id="foto_mia" src="./img/mia.jpeg" alt="foto_mia">
+            
             <div id="desc">
+                
                 <h1 class="encabezado"><ins>Sobre mi:</ins></h1><br>
 
-            <div class="sobre">
+                <div class="sobre">
+                    
                     <h2 class="saludo"><ins>Bienvenido a mi porfolio</ins></h2><br>
-                <p>
-                    Me llamo Fernando Torres, tengo 35 años y soy estudiante de programación.
-                    Me gradué como Analista de Sistemas y actualmente estoy ampliando mis conocimientos en diversos lenguajes de programación.
-                    Cuento con habilidades en HTML, CSS, PHP, Python, JavaScript y SQL,
-                    además de experiencia en documentación de desarrollo de software.
-                    Destaco por mi capacidad para comunicarme de manera efectiva con los stakeholders,
-                    trabajar en equipo y adaptarme a diferentes situaciones que puedan surgir. Poseo un pensamiento analítico y soy proactivo en la resolución de problemas.
-
-                </p>
+                    <p>
+                        Me llamo Fernando Torres, tengo 35 años y soy estudiante de programación.
+                        Me gradué como Analista de Sistemas y actualmente estoy ampliando mis conocimientos en diversos lenguajes de programación.
+                        Cuento con habilidades en HTML, CSS, PHP, Python, JavaScript y SQL,
+                        así como un nivel intermedio de lectura y comprensión de inglés,
+                        además de experiencia en documentación de desarrollo de software.
+                        Destaco por mi capacidad para comunicarme de manera efectiva con los stakeholders,
+                        trabajar en equipo y adaptarme a diferentes situaciones que puedan surgir.
+                        Poseo un pensamiento analítico y soy proactivo en la resolución de problemas.
+                    </p>
+            
+                </div>
+            
             </div>
-            </div>
+        
         </section>
 
         <section id="skills">
 
-            <h1 class="encabezado">Habilidades</h1>
-            
-            
-            <div id="logos">
-                <h2>Programación</h2>
-                <img src="./img/python.png" alt="python" class="prog">
-                <img src="./img/js.png" alt="jS" class="prog">
-                <img src="./img/html.png" alt="html" class="prog">
-                <img src="./img/css.png" alt="css" class="prog">
-                <img src="./img/php.png" alt="php" class="prog">
-                <img src="./img/sql.png" alt="sql" class="prog">
+                <h1 class="encabezado">Habilidades</h1>
+                
+            <div id="container-hab">
+
+                <div  class="grov1 logos">
+                    <h2>Programación</h2>
+                    <img src="./img/python.png" alt="python" class="prog">
+                    <img src="./img/js.png" alt="jS" class="prog">
+                    <img src="./img/html.png" alt="html" class="prog">
+                    <img src="./img/css.png" alt="css" class="prog">
+                    <img src="./img/php.png" alt="php" class="prog">
+                    <img src="./img/sql.png" alt="sql" class="prog">
+                </div>
+
+                <div  class="grov1 document">
+                    <h2>Documentación de Sistemas</h2>
+                    
+                    <section class="list">
+                        <ul class="hability">
+                            <br>
+                            <li>E.R.S</li>
+                            <li>Historias de usuarios</li>
+                            <li>Normalización de Bases de datos</li>
+                            <li>Diagrama de Flujo de datos</li>
+                            <li>Diagrama de contexto</li>
+                            <li>Diagrama de casos de uso</li>
+                            <li>Diagramas Entidad-Relación</li>
+                            <li>Diagrama de Clases</li>
+                        </ul>
+                    </section>
+                    
+                </div>
+
+                <div class="grov1 document">
+                    <h2>Aptitudes Profesionales</h2>
+                    <section class="list">
+                        <ul class="hability">
+                            <br><br>
+                            <li>Trabajo en equipo</li>
+                            <li>Comunicación efectiva</li>
+                            <li>Pensamiento analítico</li>
+                            <li>Adaptabilidad</li>
+                            <li>Proactividad</li>
+                            <li>Flexibilidad</li>
+                        </ul>
+                    </section>
+                </div>
             </div>
 
-            <div id="document">
-                <h2>Documentación de Sistemas</h2>
-                
-                <section id="list">
-                    <ul id="hability">
-                        <br>
-                        <li>E.R.S</li>
-                        <li>Historias de usuarios</li>
-                        <li>Normalización de Bases de datos</li>
-                        <li>Diagrama de Flujo de datos</li>
-                        <li>Diagrama de contexto</li>
-                        <li>Diagrama de casos de uso</li>
-                        <li>Diagramas Entidad-Relación</li>
-                        <li>Diagrama de Clases</li>
-                    </ul>
-                </section>
-                
-            </div>
         </section>
         
         <section id="proyectos">
             <h1 class="encabezado">Proyectos</h1>
-            <label for="git"></label>
+            
             <a id="git" href="https://github.com/Fernandoat90" target="_blank"><img src="./img/git.png" alt="git"></a>
         </section>
 
     </main>
 
     <footer id="pie-pag">
-
+        <h1 id="foot">Contacto</h1>
+        <p>fernandoat90@gmail.com</p>
     </footer>
 </body>
 </html>
