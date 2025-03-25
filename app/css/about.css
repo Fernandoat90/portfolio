@@ -27,8 +27,7 @@
     font-size:2.5em;
 }
 
-.sobre{
-    
+#sobre{
     color:black;
     margin: 0;
     padding: 10px;
@@ -38,12 +37,12 @@
     width:75%;
 }
 
-.sobre>p{
+#sobre>p{
     font-size: 25px;
     font-family:'Franklin Gothic Medium';
 }
 
-.saludo{
+#saludo{
     color: bisque;
     text-align: center;
     font-size:35px;
