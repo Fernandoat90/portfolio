@@ -1,4 +1,17 @@
-#vecefar{
+#cont-pro{
+    display: flex;
+    justify-content:center;
+    gap:2em;
+}
+
+.button{
     background-color: aliceblue;
     width:120px;
+}
+
+.contain-proyect{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

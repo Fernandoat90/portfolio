@@ -39,9 +39,9 @@
             
             <div id="desc">
                 
-                <h1 class="encabezado"><ins>Sobre mi:</ins></h1><br>
-                <h2 id="saludo" onmouseover="alterFont()"><ins>Bienvenido a mi porfolio</ins></h2><br>
                 
+                <h1 id="saludo" onmouseover="alterFont()"><ins>Bienvenido a mi porfolio</ins></h1><br>
+                <h2 class="encabezado"><ins>Sobre mi:</ins></h2><br>
                 <div id="sobre" >
 
                     <p>
@@ -116,15 +116,31 @@
         
         <section id="proyectos">
             <h1 class="encabezado">Proyectos</h1>
-            <div>
-                <a  href="https://github.com/Fernandoat90/Vecefar" target="_blank">
-                    <img id="vecefar" src="./img/vecefar.png" alt="vecefar">
-                </a><br>
-                <button onclick="window.open('./docs/VECEFAR CARPETA DEL SISTEMA.pdf', '_blank')">
-                    Documentación
-                </button>
-            </div>
+            <br>
+            <div id="cont-pro">
             
+                <div class="contain-proyect">
+                    <a  href="https://github.com/Fernandoat90/Vecefar" target="_blank">
+                    <img class="button" src="./img/vecefar.png" alt="vecefar">
+                    </a>
+                    
+                    <button onclick="window.open('./docs/VECEFAR CARPETA DEL SISTEMA.pdf', '_blank')">
+                    Documentación
+                    </button>
+                </div>
+
+                <div class="contain-proyect">
+                    <a href="https://github.com/Fernandoat90/zapadana" target="_blank">
+                        <img class="button" src="./img/zapadana.png" alt="ZapaDana">
+                    </a>
+                    
+                    <button onclick="window.open('./docs/zapadana final.pdf', '_blank')">
+                        Documentación
+                        </button>
+
+                </div>
+
+            </div>
         
         </section>
 

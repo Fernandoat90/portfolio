@@ -24,7 +24,7 @@
     position:flex;
     justify-content:space-between;
     text-align: center;
-    font-size:2.5em;
+    font-size:3.5em;
 }
 
 #sobre{
@@ -45,5 +45,5 @@
 #saludo{
     color: bisque;
     text-align: center;
-    font-size:35px;
+    font-size:45px;
 }
